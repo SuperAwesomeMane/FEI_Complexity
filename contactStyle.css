@@ -1,0 +1,75 @@
+.headContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    width: 965px;
+    height: 47px;
+}
+
+@font-face {
+    font-family: "Lucida";
+    src: url("fonts/lucida.ttf") format("truetype"), url("fonts/lucida.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LucidaBold";
+    src: url("fonts/lucida bold.ttf") format("truetype"),
+        url("fonts/lucida bold.woff") format("woff");
+}
+
+.contactBody {
+    background-color: white;
+    margin: 0px auto;
+    font-family: Lucida;
+    font-size: 16px;
+    width: 957px;
+    height: 633px;
+    margin-top: 3px;
+    border: 1px solid black;
+    margin-bottom: -1px;
+}
+.contactForm {
+	/*display: flex;
+	flex-direction: column;*/
+	margin: 0px auto;
+	width: 900px;
+	height: 570px;
+}
+
+.userInfo {
+	margin-top: -12px;
+	margin-left: 97px;
+	margin-bottom: -70px;
+	padding-top: 120px;
+}
+.userInfo input {
+	width: 175px;
+}
+
+.messageInfo {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+}
+.subject {
+	width: 300px;
+	margin-left: 97px;
+	margin-bottom: 20px;
+}
+.mBody {
+	margin-left: 97px;
+
+	min-width: 700px;
+	min-height: 200px;
+	max-width: 700px;
+	max-height: 200px;
+}
+.submitArea {
+	display: flex;
+	flex-direction: row;
+}
+.sub {
+	width: 70px;
+	height: 35px;
+	margin-left: 332px;
+}
