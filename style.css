@@ -1,19 +1,15 @@
 /*SEARCH FORM Z-INDEX = 110*/
 /*PRIMARY NAV Z-INDEX = 100*/
-/*SECONDARY NAV Z-INDEX = 90*/
 /*SLIDE SHOW NAV Z-INDEX = 80*/
 
 @font-face {
     font-family: "Lucida";
     src: url("fonts/lucida.ttf") format("truetype"), url("fonts/lucida.woff") format("woff");
 }
-
 @font-face {
     font-family: "LucidaBold";
-    src: url("fonts/lucida bold.ttf") format("truetype"),
-        url("fonts/lucida bold.woff") format("woff");
+    src: url("fonts/lucida bold.ttf") format("truetype"), url("fonts/lucida bold.woff") format("woff");
 }
-
 body {
     background-image: url("assets/pageback.jpg");
 }
@@ -24,7 +20,6 @@ body {
     width: 965px;
     height: 377px;
 }
-
 /*HEADER*/
 
 .toplogo {
@@ -32,7 +27,6 @@ body {
     margin-top: -80px;
     margin-left: 20px;
 }
-
 /*NAVIGATION START*/
 
 .navList {
@@ -54,6 +48,7 @@ body {
     float: left;
     text-align: center;
     font-family: Lucida;
+    font-size: 13pt;
     height: 49px;
     border-bottom: 1px solid black;
 }
@@ -64,7 +59,7 @@ body {
     padding-top: 12px;
 }
 .navHome {
-    border-top-left-radius: 5px;
+    border-top-left-radius: 7px;
     border-left: 1px solid black;
     border-top: 1px solid black;
     width: 86px;
@@ -91,7 +86,7 @@ body {
     width: 102px;
 }
 .navSearch {
-    border-top-right-radius: 5px;
+    border-top-right-radius: 7px;
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -127,7 +122,7 @@ body {
     width: 187px;
     border: 1px solid black;
     background-color: #272b32;
-    background-image: url('assets/magglass.png'), linear-gradient(#22262d,#2d3239);
+    background-image: url('assets/magglass.png'), linear-gradient(#22262d, #2d3239);
     background-repeat: no-repeat, repeat-x;
     background-position: 197px;
     padding-right: 30px;
@@ -136,9 +131,8 @@ body {
     font-family: Lucida;
 }
 .search:focus {
-    outline: none;
+    outline: 1px solid #FFF;
 }
-
 /*SLIDESHOW START*/
 
 .slideShow img {
@@ -149,8 +143,9 @@ body {
     margin-bottom: -6px;
     border: 1px solid black;
 }
-
-
+.slideImage3 {
+    display: none;
+}
 /*SLIDESHOW NAV START*/
 
 .slideNav {
@@ -164,7 +159,7 @@ body {
     margin-left: 3px;
 }
 .slideNav ul {
-    width: 30px;
+    width: 56px;
     list-style: none;
     margin: 0 auto;
     padding: 0;
@@ -182,9 +177,11 @@ body {
     float: left;
     margin-right: 1px;
 }
-.slide1 /*:hover*/ {
+.slide2
+/*:hover*/
+
+{
     background-position: -14px, 0px;
-    
 }
 /*SLIDESHOW NAV END*/
 /*SLIDESHOW END*/
@@ -200,7 +197,6 @@ body {
     margin-top: -2px;
     width: 958px;
     height: 26px;
-
 }
 .bodyShadowBot {
     background-image: url("assets/otherImageSheets.png");
@@ -220,13 +216,19 @@ body {
     margin-top: 2px;
 }
 .bodyContainer article {
-    height: 243px;
+    height: 245px;
     display: inline-block;
     text-align: left;
     font-size: 12px;
+    color: #474747;
 }
 .bodyContainer article p {
     margin-bottom: 20px;
+    letter-spacing: 1px;
+    width:290px;
+}
+.bodyContainer .boxThree p {
+    width: 288px;
 }
 .boxTitle {
     margin: 0;
@@ -234,11 +236,9 @@ body {
     font-size: 16px;
 }
 .boxOne {
-    float: left;
-    padding-left: 25px;
-    padding-right: 35px;
+    padding-left: 24px;
+    padding-right: 33px;
     width: 253px;
-    z-index: 10;
 }
 .boxImage1 {
     width: 269px;
@@ -247,9 +247,9 @@ body {
     outline: 1px solid #c6c6c6;
 }
 .boxTwo {
-    margin: 0;
-    padding-right: 39px;
-    padding-left: 25px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 2px;
     width: 253px;
 }
 .boxImage2 {
@@ -259,9 +259,9 @@ body {
     outline: 1px solid #c6c6c6;
 }
 .boxThree {
-    padding-right: 48px;
-    padding-left: 17px;
-    width: 253px;
+    padding-right: 60px;
+    padding-left: 52px;
+    width: 245px;
 }
 .boxImage3 {
     width: 269px;
@@ -269,8 +269,8 @@ body {
     border: 5px solid #f2f2f2;
     outline: 1px solid #c6c6c6;
 }
-
 /*BODY END*/
+
 /*FOOTER START*/
 
 .fromFoot {
@@ -279,7 +279,6 @@ body {
     width: 957px;
     height: 48px;
     border: 1px solid #101316;
-
 }
 .mainFoot {
     background-image: linear-gradient(#30343b, #191c21);
@@ -290,7 +289,8 @@ body {
     border-right: 1px solid #101316;
 }
 .mainFoot p {
-    font-size: 13pt;
+    font-size: 11pt;
+    padding-top: 7px;
     font-weight: bold;
 }
 .mainFootBackground {
@@ -375,7 +375,6 @@ body {
     background-size: 8.5%;
     background-position: 0px 14px;
     height: 114px;
-
 }
 .box4 ul {
     padding-top: 11px;
@@ -399,9 +398,8 @@ body {
     margin: 0 auto;
     padding-top: 10px;
     border: 1px solid #101316;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     text-align: center;
     font-family: Lucida;
     font-size: 11px;

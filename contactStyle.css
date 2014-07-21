@@ -5,20 +5,17 @@
     width: 965px;
     height: 47px;
 }
-
 @font-face {
     font-family: "Lucida";
     src: url("fonts/lucida.ttf") format("truetype"), url("fonts/lucida.woff") format("woff");
 }
-
 @font-face {
     font-family: "LucidaBold";
-    src: url("fonts/lucida bold.ttf") format("truetype"),
-        url("fonts/lucida bold.woff") format("woff");
+    src: url("fonts/lucida bold.ttf") format("truetype"), url("fonts/lucida bold.woff") format("woff");
 }
-
 .contactBody {
-    background-color: white;
+    /*background-color: white;*/
+    background-color: rgba(156, 159, 162, 1);
     margin: 0px auto;
     font-family: Lucida;
     font-size: 16px;
@@ -29,47 +26,51 @@
     margin-bottom: -1px;
 }
 .contactForm {
-	/*display: flex;
+    /*display: flex;
 	flex-direction: column;*/
-	margin: 0px auto;
-	width: 900px;
-	height: 570px;
+    margin: 0px auto;
+    width: 900px;
+    height: 570px;
 }
-
+.formMessage {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
 .userInfo {
-	margin-top: -12px;
-	margin-left: 97px;
-	margin-bottom: -70px;
-	padding-top: 120px;
+    margin-top: -12px;
+    margin-left: 97px;
+    margin-bottom: -70px;
+    padding-top: 80px;
 }
 .userInfo input {
-	width: 175px;
+    width: 300px;
 }
-
 .messageInfo {
-	display: flex;
-	flex-direction: column;
-	margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
 }
 .subject {
-	width: 300px;
-	margin-left: 97px;
-	margin-bottom: 20px;
+    width: 300px;
+    margin-left: 97px;
+    margin-bottom: 20px;
 }
 .mBody {
-	margin-left: 97px;
-
-	min-width: 700px;
-	min-height: 200px;
-	max-width: 700px;
-	max-height: 200px;
+    margin-left: 97px;
+    min-width: 700px;
+    min-height: 200px;
+    max-width: 700px;
+    max-height: 200px;
 }
 .submitArea {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 .sub {
-	width: 70px;
-	height: 35px;
-	margin-left: 332px;
+    width: 70px;
+    height: 35px;
+    margin-left: 332px;
 }

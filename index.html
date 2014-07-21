@@ -1,45 +1,55 @@
 <!doctype html>
 
 <html>
-
 <head>
     <title>Complexity, a simple theme</title>
-    <link rel="stylesheet" type="text/css" href="normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="headContainer">
         <nav>
+            <img alt="complexity, a simple theme" class="toplogo" src="assets/toplogo.png" />
             <ul class="navList">
-                <img class="toplogo" src="assets/toplogo.png"/>
-                <li class="navHome"><a href="index.html">HOME</a></li>
-                <li class="navServ"><a href="#">SERVICES</a></li>
-                <li class="navEmp"><a href="#">EMPLOYEES</a></li>
-                <li class="navAbout"><a href="#">ABOUT</a></li>
-                <li class="navContact"><a href="contact.html">CONTACT</a></li>
-                <li class="navSearch"</li>
+                <li class="navHome"><a href="index.html">HOME</a>
+                </li>
+                <li class="navServ"><a href="#">SERVICES</a>
+                </li>
+                <li class="navEmp"><a href="#">EMPLOYEES</a>
+                </li>
+                <li class="navAbout"><a href="#">ABOUT</a>
+                </li>
+                <li class="navContact"><a href="contact.html">CONTACT</a>
+                </li>
+                <li class="navSearch"></li>
             </ul>
 
             <form>
-                <input class="search" type="text"/>
+                <input class="search" type="text" />
             </form>
         </nav>
 
-        <section class="slideShow">
+        <div class="slideShow">
 
             <div class="slides">
-                <div><img id="si1" src="assets/slideshowImage1.jpg"></div>
-                <div><img id="si2" src="assets/slideshowImage2.jpg"></div>
+                <div>
+                    <img alt="a simple theme" class="slideImage2" id="si2" src="assets/slideshowImage2.jpg">
+                </div>
+                <div>
+                    <img alt="how to be a rockstar freelancer" class="slideImage3" id="si3" src="assets/slideshowImage3.jpg">
+                </div>
             </div>
-            
-            <section class="slideNav">
+
+            <div class="slideNav">
                 <ul>
                     <li class="slide1"></li>
                     <li class="slide2"></li>
+                    <li class="slide3"></li>
+                    <li class="slide4"></li>
                 </ul>
-            </section>
-        </section>
+            </div>
+        </div>
     </div>
 
     <main class="bodyContainer">
@@ -51,7 +61,7 @@
 
             <p>Embrace change. Wordpress 3 is here and a revolution has begun. Take advantage of the power of Wordpress 3 with the all new Complexity Premium Wordpress theme.</p>
 
-            <img class="boxImage1" src="assets/box1image.jpg"/>
+            <img alt="image 1" class="boxImage1" src="assets/box1image.jpg" />
         </article>
 
         <article class="boxTwo">
@@ -59,14 +69,14 @@
 
             <p>Complexity is everything it's name isn' t - simple. This premium Wordpress theme will have your website up and running on the Internet before you know it.</p>
 
-            <img class="boxImage2" src="assets/box2image.jpg"/>
+            <img alt="image 2" class="boxImage2" src="assets/box2image.jpg" />
         </article>
 
         <article class="boxThree">
             <p class="boxTitle">A true premium 8 in 1.</p>
             <p>Complexity comes with eight unique styles, each handcrafted with an immense amount of detail. Flip between each style with ease through your WP admin panel.</p>
 
-            <img class="boxImage3" src="assets/box3image.jpg"/>
+            <img alt="image 3" class="boxImage3" src="assets/box3image.jpg" />
         </article>
 
         <p class="bodyShadowBot"></p>
@@ -76,14 +86,13 @@
     <script type="text/javascript" src="jquery-1.7.js"></script>
     <script type="text/javascript" src="retina/retina.js"></script>
     <script type="text/javascript" src="complex.js"></script>
-</body>
 
 <footer>
-    <section class="fromFoot"></section>
+    <div class="fromFoot"></div>
 
     <div class="mainFoot">
-        <section class="mainFootBackground"></section>
-        
+        <div class="mainFootBackground"></div>
+
         <article class="box1">
             <p>From the Blog</p>
 
@@ -112,9 +121,7 @@
             <p>From Twitter</p>
 
             <ul>
-                <li class="box3Sum">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt.</li>
+                <li class="box3Sum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</li>
                 <li class="box3item2">2 days ago</li>
                 <li class="box3item3">Follow Us!</li>
             </ul>
@@ -123,7 +130,7 @@
         <article class="box4">
             <p>Get in Touch</p>
 
-            <section class="contactListIcons">
+            <div class="contactListIcons">
                 <ul>
                     <li>1-800-555-5555</li>
                     <li>you@yoursite.com</li>
@@ -131,16 +138,16 @@
                     <li>YourSkypeUserID</li>
                     <li class="socialIcons"></li>
                 </ul>
-            </section>
+            </div>
         </article>
 
     </div>
 
-    <section class="copyrightFoot">
+    <div class="copyrightFoot">
         <p>©2010 Complexity HTML Theme - Web Design by Jason Bobich</p>
         <p class="pageShadow"></p>
-    </section>
+    </div>
 
 </footer>
-
+</body>
 </html>

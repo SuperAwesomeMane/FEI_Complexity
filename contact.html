@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <div class="headContainer">
+   <div class="headContainer">
         <nav>
+            <img alt="complexity, a simple theme" class="toplogo" src="assets/toplogo.png" />
             <ul class="navList">
-                <img class="toplogo" src="assets/toplogo.png" />
                 <li class="navHome"><a href="index.html">HOME</a>
                 </li>
                 <li class="navServ"><a href="#">SERVICES</a>
@@ -24,7 +24,7 @@
                 </li>
                 <li class="navContact"><a href="contact.html">CONTACT</a>
                 </li>
-                <li class="navSearch" </li>
+                <li class="navSearch"></li>
             </ul>
 
             <form>
@@ -34,41 +34,45 @@
     </div>
 
     <main class="contactBody">
-        <div class="contactForm">
-            <form action="index.html">
-                <section class="userInfo">
-                    <section>
-                        <p>Name:</p>
-                        <input id="nameBox" type="text" required></input>
 
-                        <p>E-mail:</p>
-                        <input id="userEmail" type="text" required></input>
-                    </section>
+        <form class="contactForm" action="index.html">
+
+            <p class="formMessage">Have any questions? We'd be happy to hear from you. Just fill out the form below and we'll respond as soon as we can!</p>
+
+            <div class="userInfo">
+
+                <section>
+                    <p>YOUR NAME (required)</p>
+                    <input id="nameBox" type="text" required/>
+
+                    <p>YOUR EMAIL (required)</p>
+                    <input id="userEmail" type="text" required/>
                 </section>
+            </div>
 
-                <section class="messageInfo">
-                    <section class="submitArea">
-                        <input id="userSubject" class="subject" type="text" placeholder="Subject" required></input>
+            <div class="messageInfo">
 
-                        <input class="sub" type="submit" value="Submit"></input>
+                <div class="submitArea">
 
-                    </section>
-                    <textarea id="userMessage" class="mBody" type="text" placeholder="What's on your mind?" requred></textarea>
+                    <input id="userSubject" class="subject" type="text" placeholder="What's this about?" required/>
 
-                </section>
-            </form>
+                    <input class="sub" type="submit" value="Submit"/>
 
-        </div>
+                </div>
+
+                <textarea id="userMessage" class="mBody" placeholder="What's on your mind?" required></textarea>
+
+            </div>
+        </form>
 
     </main>
 
     <script type="text/javascript" src="jquery-1.7.js"></script>
     <script type="text/javascript" src="retina/retina.js"></script>
     <script type="text/javascript" src="complex.js"></script>
-</body>
 
 <footer>
-    <section class="fromFoot"></section>
+    <div class="fromFoot"></div>
 
     <div class="mainFoot">
         <section class="mainFootBackground"></section>
@@ -129,5 +133,5 @@
     </section>
 
 </footer>
-
+</body>
 </html>
